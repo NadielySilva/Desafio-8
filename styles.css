@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+/*Configurações gerais*/
+
+*{
+    color: white;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*Configurações da página*/
+
+html{
+    min-width: 1200px;
+    max-width: 1920px;
+}
+
+/*Configurações da body*/
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+/*Configurações da HEADER*/   
+
+header{
+    width: 100vw;
+    height: 44vh;
+    display: flex;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    background-color: #129799;    
+}
+
+.topnav1{
+    width: 60vw;
+    height: 10vh;
+    font-size: 187.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#ul1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.topnav1 li{
+    display: flex;
+    font-weight: 400;
+    font-size: 90%;
+}
+
+header .titlebox{
+    width: 100vw;
+    height: 53%;
+    font-size: 175%;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 10vh;
+}
+
+.titlebox h1{
+    width: 48vw;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titlebox figure{
+    width: 48vw;
+    height: 20vh;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    bottom: 55%;
+}
+
+.topnav2{
+    width: 60vw;
+    height: 10vh;
+    font-size: 150%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+}
+
+ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.topnav2 li{
+    display: flex;
+    font-weight: 400;
+    font-size: 100%;
+}
+
+/*Configurações da MAIN*/
+
+main{
+    width: 100vw;
+    height: 125vh;
+    display: flex;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    background-color: #FFA185;  
+}
+
+.container1{
+    width: 90vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.container1 h2{
+    width: 90vw;
+    height: 10vh;
+    text-transform: uppercase;
+    display: flex;
+    align-self: flex-start;
+    position: absolute;
+    top: 5vh;
+    left: 5vw;
+}
+
+.container1 p{
+    width: 50vw;
+    height: 15vh;
+    color: #000;
+    display: flex;
+    align-self: flex-start;
+    position: absolute;
+    top: 12vh;
+    left: 5vw;
+}
+
+.container2{
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+    top: 20vh;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 30vh;
+    align-content: space-around;
+    justify-content: space-around;
+    margin: 2vh 2vw;
+}
+
+.wrapper figure img{
+    width: 35vw;
+    height: 30vh;
+    justify-content: space-around;
+    margin: 2vh 2vw;
+}
+
+.orange{
+    grid-area: 1 / 1 / span 1 / span 1;
+    margin: 2%;
+}
+
+.k7{
+    grid-area: 1 / 2 / span 1 / span 1;
+    margin: 2%;
+}
+
+.turquoise{
+    grid-area: 2 / 1 / span 1 / span 1;
+    margin: 5% 2%;
+}
+
+.headphone{
+    grid-area: 2 / 2 / span 1 / span 1;
+    margin: 5% 2%;
+}
+
+.paragraph-main{
+    font-size: 187.5%;
+    position: absolute;
+    bottom: 5vh;
+}
+
+.paragraph-main a{
+    color: #000;
+}
+
+/*Configurações do FOOTER*/
+
+footer{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    background-color: #129799;
+}
+
+.socialmedia{
+    width: 20vw;
+    height: 3.5vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.socialmedia img{
+    width: 2.5vw;
+    height: auto;
+}
+
+.bottomnav{
+    width: 60vw;
+    height: 10vh;
+    font-size: 150%;
+    display: flex;
+    justify-content: space-between;
+}
